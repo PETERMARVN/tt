@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game.css">
+    <link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Montserrat:ital@1&family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <title>Color Game</title>
+</head>
+<body>        
+    <section>
+        <h1 id="tagh1">
+            THE GREAT 
+            <br>
+            <span id="colorDisplay">
+                RBG
+            </span>
+            <br> GAME
+        </h1>
+    </section>
+    <div id="stripe">
+        <button id="reset">NEW COLORS</button>
+        <span id="message"></span>
+        <button id="easyMode">EASY</button>
+        <button class="selected" id="hardMode">HARD</button>
+        <button class="" id="adavancedMode">ADVANCED</button>
+    </div>
+    <div class="container">
+        <div class="square"></div>
+        <div class="square"></div> 
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+
+    <!-- wavy footer -->
+    <div>
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgb(50, 50, 50)" />
+        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgb(116, 114, 110)"/>
+        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgb(233, 167, 44)"/>
+        <use xlink:href="#gentle-wave" x="48" y="7" fill="rgb(10, 10, 10)"/>
+        </g>
+        </svg>
+        </div>
+        <!--Waves end-->
+
+        <!--waves color
+            rgba(255,255,255,0.7)
+            rgba(255,255,255,0.5)
+            rgba(255,255,255,0.3)
+        -->
+        
+    </div>
+    <!--Header ends-->
+        
+    <!--Content starts-->
+    <div id="finishWords" class="content flex"> 
+       <p id="baseWords">By.MARVN | Thanks for Using...| NOT COMPLETED </p>
+
+       <div class="footer-col">
+        <h4>🙂 😊 😀</h4>
+        <div class="social-links">
+             <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+             <a href="#"><i class="fa-brands fa-instagram"></i></a>
+             <a href="#"><i class="fa-brands fa-twitter"></i></a>
+             <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+             <a href="#"><i class="fa-brands fa-github"></i></a>
+             <a href="https://wa.link/zmpzuv"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </div>
+    </div>
+    <!--Content ends-->
+
+    <script src="/game.js"></script>
+    <script src="https://kit.fontawesome.com/10870d86be.js" crossorigin="anonymous"></script>
+</body>
+</html>

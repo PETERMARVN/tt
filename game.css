@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: black;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+#colorDisplay {
+    font-size: 200%;
+}
+section {
+    text-align: center;
+    justify-items: center;
+    color: whitesmoke;
+    background: #232323;
+    line-height: 1.1;
+    margin-top: 20px #232323;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#colorDisplay {
+    text-transform: uppercase;
+    font-family: 'BhuTuka Expanded One', cursive;
+    font-weight: 800;
+}
+#message {
+    color: black;
+}
+#stripe {
+    text-align: center;
+    background-color: white;
+    height: 30px;
+    
+}
+.square {
+    width: 30%;
+    background-color: grey;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15%;
+    transition: background 0.6s;
+    --webkit-transition:  background 0.6s;
+    --webkit-transition:  background 0.6s;
+    
+}
+.container {
+    max-width: 700px;
+    margin: 20px auto;
+}
+button {
+    padding: 7px;
+    border: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    transition: all 1.0s;
+}
+button:hover {
+    color: white;
+    background: steelblue;
+}
+.selected {
+    color: white;
+    background: steelblue;
+}
+#message {
+    display: inline-block;
+    width: 20%;
+}
+/* footer */
+/* Animation */
+
+.waves {
+    position:relative;
+    width: 100%;
+    height:15vh;
+    margin-bottom:-7px; /*Fix for safari gap*/
+    min-height:100px;
+    max-height:150px;
+}
+
+
+.content {
+    position:relative;
+    height:20vh;
+    text-align:center;
+    background-color: rgb(10, 10, 10);
+    background-image: url(GOLDEN.jfif);
+    background-position-x: left;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: 100px;
+}
+
+#baseWords {
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: 700;
+    color: rgb(218, 122, 32);
+}
+h4{
+    color: rgb(218, 122, 32);
+    font-family: 'Montserrat', sans-serif;
+}
+/* footer links attributes */
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+    color: rgb(218, 122, 32);
+
+}
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+
+.parallax > use {
+    animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+}
+.parallax > use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+}
+@keyframes move-forever {
+    0% {
+     transform: translate3d(-90px,0,0);
+    }
+    100% { 
+      transform: translate3d(85px,0,0);
+    }
+}
+  /*Shrinking for mobile*/
+@media (max-width: 768px) {
+    .waves {
+      height:40px;
+      min-height:40px;
+    }
+    .content {
+      height:30vh;
+      width: -moz-fit-content;
+      width:fit-content;
+    }
+    h1 {
+      font-size:24px;
+    }
+}
+/*
+font-family: 'BhuTuka Expanded One', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oleo Script Swash Caps', cursive;
+*/
